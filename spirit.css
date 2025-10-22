@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: "Archivo Black", sans-serif;
+}
+
+/* Header */
+.global_header {
+    background: rgb(255, 240, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    position: relative;
+    height: 60px;
+}
+.travel_inquiries{
+    /* border: 2px solid green; */
+    margin-left: 10px;
+    display: flex;
+    gap: 15px;
+    transform: scaleY(1.2);
+}
+.header_logo {
+    /* border: 2px solid blue; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-65%);
+    z-index: 1;
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+}
+.client_interface {
+    /* border: 2px solid red; */
+    margin-right: 15px;
+    display: flex;
+    gap: 15px;
+    transform: scaleY(1.2);
+}
+
+
+/* Flight booking */
+.flight_booking {
+    padding: 20px;
+    border: 1px solid black;
+    height: 445px;
+    background: url('./images/3866.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
