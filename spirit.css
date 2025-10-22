@@ -9,7 +9,7 @@ body {
 
 /* Header */
 .global_header {
-    background: rgb(255, 240, 0);
+    background: rgb(255, 235, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,12 +46,20 @@ body {
 /* Flight booking */
 .flight_booking {
     padding: 20px;
-    border: 1px solid black;
-    height: 445px;
+    /* border: 1px solid black; */
+    height: 350px;
     background: url('./images/3866.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.flight_search {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -64,6 +72,7 @@ body {
     flex-wrap: nowrap;
     transform: scaleY(1.09);
     align-items: center;
+    width: fit-content;
 }
 .divider {
     border: rgb(202, 202, 202) 2px solid;
@@ -71,7 +80,7 @@ body {
     width: 0.05px;
 }
 .learn_more_buttons {
-    width: 140px;
+    width: 145px;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -84,14 +93,59 @@ body {
     color: white;
 }
 .flight_button {
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5px;
+}
+.plane_icon {
+    transform: rotate(90deg);
+    font-size: 18px;
+}
+.package_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5px;
+}
+.tree_icon {
+    font-size: 18px;
+}
+.hotel_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5px;
+}
+.bed_icon {
+    font-size: 18px;
+}
+.car_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5px;
+}
+.car_icon {
+    font-size: 18px;
 }
 .cruise_button {
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5px;
+}
+.cruise_icon {
+    font-size: 18px;
 }
 
 .flight_schedules {
-    
+    background: white;
+    border: black 2px solid;
+    width: 800px;
+    height: 200px;
 }
